@@ -1,0 +1,23 @@
+{
+  "hash": "9553bea6",
+  "browserHash": "36da8661",
+  "optimized": {
+    "vue": {
+      "src": "../../../../node_modules/.pnpm/vue@3.3.4/node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "fa22c5a8",
+      "needsInterop": false
+    },
+    "active-calendar-chart": {
+      "src": "../../../../node_modules/.pnpm/active-calendar-chart@1.0.2/node_modules/active-calendar-chart/dist/index.js",
+      "file": "active-calendar-chart.js",
+      "fileHash": "d8f2a0d5",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-JKV2V35Q": {
+      "file": "chunk-JKV2V35Q.js"
+    }
+  }
+}
