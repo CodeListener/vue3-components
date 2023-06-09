@@ -1,0 +1,19 @@
+name: CI
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+jobs:
+  Lint:
+    runs-on: ubuntu-latest
+    setps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - name: Install modules
+        run: npm install pnpm
+        run: pnpm install
+      - name: Lint
+        run: pnpm run lint
