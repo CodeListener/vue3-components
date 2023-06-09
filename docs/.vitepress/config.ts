@@ -17,9 +17,7 @@ export default defineConfig({
         },
         {
           text: "业务组件",
-          items: [
-            { text: "活跃度组件", link: "/components/button/" },
-          ],
+          items: [{ text: "活跃度组件", link: "/components/active-calendar-chart" }],
           collapsed: true,
         },
       ],

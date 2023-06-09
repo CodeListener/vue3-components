@@ -22,7 +22,7 @@ export default defineConfig({
         },
       },
     },
-    minify: false,
+    minify: 'esbuild',
     lib: {
       name: "YangguangUI",
       entry: resolve(__dirname, "./src/components/index.ts"),
