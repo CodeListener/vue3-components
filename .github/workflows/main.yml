@@ -7,12 +7,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 16
+      - uses: pnpm/action-setup@v2
       - name: Install modules
         run: |
           npm install pnpm -g
           pnpm install
-      - name: Lint
+      - name: Run Lint
         run: pnpm run lint
